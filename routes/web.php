@@ -14,10 +14,19 @@
 
 Route::group(['prefix' => LaravelLocalization::setLocale()], function()
 {
-	/** ADD ALL LOCALIZED ROUTES INSIDE THIS GROUP **/
+    /** ADD ALL LOCALIZED ROUTES INSIDE THIS GROUP **/
+    
+
 	Route::get('/', function () {
         return view('index');
     });
     
+    Route::get('/ar', function () {
+        return view('index');
+    });
+
+    Route::get('/tr', function () {
+        return view('index');
+    });
 });
 

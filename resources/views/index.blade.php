@@ -14,17 +14,17 @@
         <div class="swiper-container hero-swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-            <div class="hero-area hero-slide" style="background-image:url(img/hero/women.jpg);">
+            <div class="hero-area hero-slide" style="background-image:url(img/hero/slide1.jpg);">
               <div class="overlay overlay-5"></div>
               <div class="container">
                   <div class="row full-height align-items-center text-center">
                     <div class="col p-100px-t p-50px-b slider-text">
-                        <h4 class="tlt1">Prottasha for hopeless peoples</h4>
+                       <!-- <h4 class="tlt1">{{__('index.slide1Heading')}}</h4>
                         <div class="divider-circle mt-4"></div>
-                        <h2 class="text-capitalize m-35px-tb tlt">We give a helping hand for<br>hopeless peoples</h2>
+                        <h2 class="text-capitalize m-35px-tb tlt">{{__('index.slide1Decription')}}</h2>-->
                         <div class="hero-btn-wrapper">
-                          <a href="#contact" class="btn btn-default btn-default-outline">Contact us</a>
-                          <a class="btn btn-default" href="#">Donate now</a>
+                        <a href="#contact" class="btn btn-default btn-default-outline">{{__('index.contactUsBtn')}}</a>
+                          <a class="btn btn-default" href="#">{{__('index.donateBtn')}}</a>
                         </div>
                     </div>
                   </div>
@@ -34,17 +34,17 @@
             <!--End single slide -->
 
             <div class="swiper-slide">
-            <div class="hero-area hero-slide" style="background-image:url(img/hero/homeless.jpg);">
+            <div class="hero-area hero-slide" style="background-image:url(img/hero/slide2.jpg);">
               <div class="overlay overlay-5"></div>
               <div class="container">
                   <div class="row full-height align-items-center text-center">
                     <div class="col p-100px-t p-50px-b">
-                        <h4 class="tlt1">Prottasha for homeless peoples</h4>
+                       <!-- <h4 class="tlt1">{{__('index.slide1Heading')}}</h4>
                         <div class="divider-circle mt-4"></div>
-                        <h2 class="text-capitalize m-35px-tb tlt">We give a helping hand for<br>homeless peoples</h2>
+                        <h2 class="text-capitalize m-35px-tb tlt">{{__('index.slide1Decription')}}</h2>-->
                         <div class="hero-btn-wrapper">
-                          <a href="#contact" class="btn btn-default btn-default-outline">Contact us</a>
-                          <a class="btn btn-default" href="#">Donate now</a>
+                          <a href="#contact" class="btn btn-default btn-default-outline">{{__('index.contactUsBtn')}}</a>
+                          <a class="btn btn-default" href="#">{{__('index.donateBtn')}}</a>
                         </div>
                     </div>
                   </div>
@@ -53,8 +53,8 @@
           </div>
           <!--End single slide -->
 
-          <div class="swiper-slide">
-            <div class="hero-area hero-slide" style="background-image:url(img/hero/relefe.jpg);">
+         <!-- <div class="swiper-slide">
+            <div class="hero-area hero-slide" style="background-image:url(img/hero/slide2.jpg);">
               <div class="overlay overlay-5"></div>
               <div class="container">
                   <div class="row full-height align-items-center text-center">
@@ -63,14 +63,14 @@
                         <div class="divider-circle mt-4"></div>
                         <h2 class="text-capitalize m-35px-tb tlt">We give a helping hand for<br>happy life</h2>
                         <div class="hero-btn-wrapper">
-                          <a href="#contact" class="btn btn-default btn-default-outline">Contact us</a>
-                          <a class="btn btn-default" href="#">Donate now</a>
+                          <<a href="#contact" class="btn btn-default btn-default-outline">{{__('index.contactUsBtn')}}</a>
+                          <a class="btn btn-default" href="#">{{__('index.donateBtn')}}</a>
                         </div>
                     </div>
                   </div>
               </div>
             </div>
-          </div>
+          </div>-->
           <!--End single slide -->
 
           </div>
@@ -90,10 +90,12 @@
                </div>
                <div class="col-md-6 col-sm-12 col-xs-12 align-self-center">
                   <div class="about-box diffuse-shadow p-45px sm-p-25px bg-white">
-                     <h2>About us</h2>
+                     <h2>{{__('index.aboutHeading')}}</h2>
                      <div class="divider-dashed m-25px-b"></div>
-                    <p>In on announcing if of comparison pianoforte projection. Maids hoped gay yet bed asked blind dried point. On abroad danger likely regret twenty edward do.</p><p>Too horrible consider followed may differed age. An rest if more five mr of. Age just her rank met down way. Attended required so in cheerful an. Domestic replying she resolved him for did.Rather in lasted no within no.
-                     Style never met and those among great. At no or september sportsmen he perfectly happiness attending. Depending listening delivered off new she procuring satisfied sex existence.</p>Person plenty answer to exeter it if. Law use assistance especially resolution cultivated did out sentiments unsatiable. Way necessary had intention happiness but september delighted his curiosity. Furniture furnished or on strangers neglected remainder engrossed.</p>
+                     <p>{{__('index.aboutDescribtion1')}}</p>
+                     <p>{{__('index.aboutDescribtion2')}}</p>
+                     <p>{{__('index.aboutDescribtion3')}}</p>
+                     <p>{{__('index.aboutDescribtion4')}}</p>
                   </div>
                </div>
             </div>
@@ -101,7 +103,7 @@
       </section>
       <!-- ========== About End ========== -->
       <!-- Video Section Start -->
-      <section class="p-100px-tb overlay overlay-6 parallax" style="background-image:url(img/bg/video-promo.jpeg)">
+     <!-- <section class="p-100px-tb overlay overlay-6 parallax" style="background-image:url(img/bg/video-promo.jpeg)">
          <div class="container">
             <div class="row">
                <div class="col-sm-8 offset-sm-2 text-center promo-video">
@@ -115,7 +117,7 @@
                </div>
             </div>
          </div>
-      </section>
+      </section>-->
       <!-- Video Section End -->
       <!-- ========== Causes Start ========== -->
       <section id="causes" class="p-80px-tb bg-white">
@@ -123,9 +125,9 @@
             <div class="row">
                <div class="col-sm-8 offset-sm-2">
                   <div class="section-title text-center m-60px-b">
-                     <h2>Our recent causes</h2>
+                     <h2>{{__('index.ourProjectHeading')}}</h2>
                      <div class="divider-circle mx-auto"></div>
-                     <p>Lose away off why half led have near bed. At engage simple father of period others except. My giving do summer of though narrow marked at.</p>
+                     <p>{{__('index.ourProjectDecribtion')}}</p>
                   </div>
                </div>
             </div>
@@ -137,9 +139,9 @@
                         <div class="col">
                               <article class="content-box diffuse-shadow bg-light p-10px">
                                  <div class="btn-relative-img text-center overlay overlay-5">
-                                    <img src="img/causes/1.jpg" alt="">
+                                    <img src="img/causes/food.jpg" alt="">
                                     <div class="lightbox-icons">
-                                       <a href="img/causes/1.jpg" class="causes-lightbox" title="Donate for victims">
+                                       <a href="img/causes/food.jpg" class="causes-lightbox" title="Donate for victims">
                                         <i class="icofont-image"></i>
                                        </a>
                                        <button class="js-modal-btn" data-video-id="QIYcFth8ty4">
@@ -149,29 +151,29 @@
                                        <i class="icofont-external-link"></i>
                                        </a>
                                     </div>
-                                    <a href="donate.html" class="btn btn-default btn-small">Donate</a>
+                                    <a href="donate.html" class="btn btn-default btn-small">{{__('index.donateBtn')}}</a>
                                  </div>
                                  <div class="content-area mt-2 p-10px">
-                                    <h3><a href="donate.html">Donate for helpless</a></h3>
-                                    <p>Much evil soon high in hope do view. Out may few northward.</p>
+                                    <h3><a href="donate.html">{{__('index.firstProjectTitle')}}</a></h3>
+                                    <p>{{__('index.firstProjectDescribtion')}}</p>
                                  </div>
-                                 <div class="progress-bars m-35px-b m-10px-t p-10px-l p-10px-r">
+                                <!-- <div class="progress-bars m-35px-b m-10px-t p-10px-l p-10px-r">
                                     <div class="progress">
                                        <div class="progress-bar" data-value="30" style="width: 30%;"><span>30%</span></div>
                                     </div>
-                                 </div>
+                                 </div>-->
                                  <footer class="content-footer p-10px-l p-10px-r">
                                     <p class="content-raised">
-                                       Raised:<br><b>$1,299</b>
+                                    {{__('index.firstProjectFirstStatic')}}:<br><b>9200 {{__('index.firstProjectFirstStaticUnit')}}</b>
                                     </p>
                                     <p class="content-goal">
-                                       Goal:<br><b>$12,000</b>
+                                    {{__('index.firstProjectSecondStatic')}}:<br><b>10000 {{__('index.publicProjectStaticUnit')}}</b>
                                     </p>
                                     <p class="content-raised">
-                                       Donors:<br><b>14 Donors</b>
+                                    {{__('index.firstProjectThirdStatic')}}:<br><b>6000 {{__('index.publicProjectStaticUnit')}}</b>
                                     </p>
                                     <p class="content-goal">
-                                       Time left:<br><b>222 days</b>
+                                    {{__('index.firstProjectFourthStatic')}}:<br><b>700 {{__('index.publicProjectStaticUnit')}}</b>
                                     </p>
                                  </footer>
                               </article>
@@ -183,9 +185,9 @@
                         <div class="col">
                               <article class="content-box diffuse-shadow bg-light p-10px">
                                  <div class="btn-relative-img text-center overlay overlay-5">
-                                    <img src="img/causes/2.jpg" alt="">
+                                    <img src="img/causes/food.jpg" alt="">
                                     <div class="lightbox-icons">
-                                       <a href="img/causes/2.jpg" class="causes-lightbox" title="Donate for victims">
+                                       <a href="img/causes/food.jpg" class="causes-lightbox" title="Donate for victims">
                                        <i class="icofont-image"></i>
                                        </a>
                                        <button class="js-modal-btn" data-video-id="QIYcFth8ty4">
@@ -195,29 +197,29 @@
                                        <i class="icofont-external-link"></i>
                                        </a>
                                     </div>
-                                    <a href="donate.html" class="btn btn-default btn-small">Donate</a>
+                                    <a href="donate.html" class="btn btn-default btn-small">{{__('index.donateBtn')}}</a>
                                  </div>
                                  <div class="content-area mt-2 p-10px">
-                                    <h3><a href="donate.html">Donate for education</a></h3>
-                                    <p>Much evil soon high in hope do view. Out may few northward.</p>
+                                    <h3><a href="donate.html">{{__('index.secondProjectTitle')}}</a></h3>
+                                    <p>{{__('index.secondProjectDescribtion')}}</p>
                                  </div>
-                                 <div class="progress-bars m-35px-b m-10px-t p-10px-l p-10px-r">
+                                 <!--<div class="progress-bars m-35px-b m-10px-t p-10px-l p-10px-r">
                                     <div class="progress">
                                        <div class="progress-bar" data-value="30" style="width: 30%;"><span>30%</span></div>
                                     </div>
-                                 </div>
+                                 </div>-->
                                  <footer class="content-footer p-10px-l p-10px-r">
                                     <p class="content-raised">
-                                       Raised:<br><b>$1,299</b>
+                                    {{__('index.secondProjectFirstStatic')}}:<br><b>123 {{__('index.publicProjectStaticUnit')}}</b>
                                     </p>
                                     <p class="content-goal">
-                                       Goal:<br><b>$12,000</b>
+                                    {{__('index.secondProjecSecondStatic')}}:<br><b>200 {{__('index.publicProjectStaticUnit')}}</b>
                                     </p>
                                     <p class="content-raised">
-                                       Donors:<br><b>14 Donors</b>
+                                    {{__('index.secondProjectThirdStatic')}}:<br><b>831 {{__('index.publicProjectStaticUnit')}}</b>
                                     </p>
                                     <p class="content-goal">
-                                       Time left:<br><b>222 days</b>
+                                    {{__('index.secondProjectThirdStatic')}}:<br><b>22 {{__('index.publicProjectStaticUnit')}}</b>
                                     </p>
                                  </footer>
                               </article>
@@ -229,9 +231,9 @@
                         <div class="col">
                           <article class="content-box diffuse-shadow bg-light p-10px">
                               <div class="btn-relative-img text-center overlay overlay-5">
-                                 <img src="img/causes/3.jpg" alt="">
+                                 <img src="img/causes/food.jpg" alt="">
                                  <div class="lightbox-icons">
-                                    <a href="img/causes/3.jpg" class="causes-lightbox" title="Donate for victims">
+                                    <a href="img/causes/food.jpg" class="causes-lightbox" title="Donate for victims">
                                     <i class="icofont-image"></i>
                                     </a>
                                     <button class="js-modal-btn" data-video-id="QIYcFth8ty4">
@@ -241,29 +243,29 @@
                                     <i class="icofont-external-link"></i>
                                     </a>
                                  </div>
-                                 <a href="donate.html" class="btn btn-default btn-small">Donate</a>
+                                 <a href="donate.html" class="btn btn-default btn-small">{{__('index.donateBtn')}}</a>
                               </div>
                               <div class="content-area mt-2 p-10px">
-                                 <h3><a href="donate.html">Donate for hope</a></h3>
-                                 <p>Much evil soon high in hope do view. Out may few northward.</p>
+                                 <h3><a href="donate.html">{{__('index.thirdProjectTitle')}}</a></h3>
+                                 <p>{{__('index.thirdProjectDescribtion')}}</p>
                               </div>
-                              <div class="progress-bars m-35px-b m-10px-t p-10px-l p-10px-r">
+                           <!--<div class="progress-bars m-35px-b m-10px-t p-10px-l p-10px-r">
                                  <div class="progress">
                                     <div class="progress-bar" data-value="90" style="width: 90%;"><span>90%</span></div>
                                  </div>
-                              </div>
+                              </div>-->
                               <footer class="content-footer p-10px-l p-10px-r">
                                  <p class="content-raised">
-                                    Raised:<br><b>$1,299</b>
+                                 {{__('index.thirdProjectFirstStatic')}}:<br><b>350 {{__('index.thirdProjectFirstStaticUnit')}}</b>
                                  </p>
                                  <p class="content-goal">
-                                    Goal:<br><b>$12,000</b>
+                                 {{__('index.thirdProjectSecondStatic')}}:<br><b>85 {{__('index.publicProjectStaticUnit')}}</b>
                                  </p>
                                  <p class="content-raised">
-                                    Donors:<br><b>14 Donors</b>
+                                 {{__('index.thirdProjectThirdStatic')}}:<br><b>700 {{__('index.publicProjectStaticUnit')}}</b>
                                  </p>
                                  <p class="content-goal">
-                                    Time left:<br><b>222 days</b>
+                                 {{__('index.thirdProjectFourthStatic')}}:<br><b>150 {{__('index.publicProjectStaticUnit')}}</b>
                                  </p>
                               </footer>
                            </article>
@@ -275,9 +277,9 @@
                         <div class="col">
                           <article class="content-box diffuse-shadow bg-light p-10px">
                               <div class="btn-relative-img text-center overlay overlay-5">
-                                 <img src="img/causes/4.jpg" alt="">
+                                 <img src="img/causes/food.jpg" alt="">
                                  <div class="lightbox-icons">
-                                    <a href="img/causes/4.jpg" class="causes-lightbox" title="Donate for victims">
+                                    <a href="img/causes/food.jpg" class="causes-lightbox" title="Donate for victims">
                                     <i class="icofont-image"></i>
                                     </a>
                                     <button class="js-modal-btn" data-video-id="QIYcFth8ty4">
@@ -287,29 +289,121 @@
                                     <i class="icofont-external-link"></i>
                                     </a>
                                  </div>
-                                 <a href="donate.html" class="btn btn-default btn-small">Donate</a>
+                                 <a href="donate.html" class="btn btn-default btn-small">{{__('index.donateBtn')}}</a>
                               </div>
                               <div class="content-area mt-2 p-10px">
-                                 <h3><a href="#">Donate for education</a></h3>
-                                 <p>Much evil soon high in hope do view. Out may few northward.</p>
+                                 <h3><a href="#">{{__('index.fourthProjectTitle')}}</a></h3>
+                                 <p>{{__('index.fourthProjectDescribtion')}}</p>
                               </div>
-                              <div class="progress-bars m-35px-b m-10px-t p-10px-l p-10px-r">
+                             <!-- <div class="progress-bars m-35px-b m-10px-t p-10px-l p-10px-r">
                                  <div class="progress">
                                     <div class="progress-bar" data-value="45" style="width: 45%;"><span>45%</span></div>
                                  </div>
-                              </div>
+                              </div>-->
                               <footer class="content-footer p-10px-l p-10px-r">
                                  <p class="content-raised">
-                                    Raised:<br><b>$1,299</b>
+                                 {{__('index.fourthProjectFirstStatic')}}:<br><b>2500 {{__('index.publicProjectStaticUnit')}}</b>
                                  </p>
                                  <p class="content-goal">
-                                    Goal:<br><b>$12,000</b>
+                                 {{__('index.fourthProjecSecondStatic')}}:<br><b> 1200 {{__('index.publicProjectStaticUnit')}}</b>
                                  </p>
                                  <p class="content-raised">
-                                    Donors:<br><b>14 Donors</b>
+                                 {{__('index.fourthProjectThirdStatic')}}:<br><b>1800 {{__('index.publicProjectStaticUnit')}}</b>
                                  </p>
                                  <p class="content-goal">
-                                    Time left:<br><b>222 days</b>
+                                 {{__('index.fourthProjectThirdStatic')}}:<br><b>2000 {{__('index.publicProjectStaticUnit')}}</b>
+                                 </p>
+                              </footer>
+                           </article>
+                          </div>
+                      </div>
+                       <!-- Single causes item end -->
+                       <!-- Single causes item start -->
+                      <div class="swiper-slide">
+                        <div class="col">
+                          <article class="content-box diffuse-shadow bg-light p-10px">
+                              <div class="btn-relative-img text-center overlay overlay-5">
+                                 <img src="img/causes/food.jpg" alt="">
+                                 <div class="lightbox-icons">
+                                    <a href="img/causes/food.jpg" class="causes-lightbox" title="Donate for victims">
+                                    <i class="icofont-image"></i>
+                                    </a>
+                                    <button class="js-modal-btn" data-video-id="QIYcFth8ty4">
+                                    <i class="icofont-video-alt"></i>
+                                    </button>
+                                    <a href="causes-detail.html">
+                                    <i class="icofont-external-link"></i>
+                                    </a>
+                                 </div>
+                                 <a href="donate.html" class="btn btn-default btn-small">{{__('index.donateBtn')}}</a>
+                              </div>
+                              <div class="content-area mt-2 p-10px">
+                                 <h3><a href="#">{{__('index.fifthProjectTitle')}}</a></h3>
+                                 <p>{{__('index.fifthProjectDescribtion')}}</p>
+                              </div>
+                             <!-- <div class="progress-bars m-35px-b m-10px-t p-10px-l p-10px-r">
+                                 <div class="progress">
+                                    <div class="progress-bar" data-value="45" style="width: 45%;"><span>45%</span></div>
+                                 </div>
+                              </div>-->
+                              <footer class="content-footer p-10px-l p-10px-r">
+                                 <p class="content-raised">
+                                 {{__('index.fifthProjectFirstStatic')}}:<br><b>75 {{__('index.publicProjectStaticUnit')}}</b>
+                                 </p>
+                                 <p class="content-goal">
+                                 {{__('index.fifthProjecSecondStatic')}}:<br><b>150 {{__('index.publicProjectStaticUnit')}}</b>
+                                 </p>
+                                 <p class="content-raised">
+                                 {{__('index.fifthProjectThirdStatic')}}:<br><b>2500 {{__('index.publicProjectStaticUnit')}}</b>
+                                 </p>
+                                 <p class="content-goal">
+                                 {{__('index.fifthProjectThirdStatic')}}:<br><b>35 {{__('index.publicProjectStaticUnit')}}</b>
+                                 </p>
+                              </footer>
+                           </article>
+                          </div>
+                      </div>
+                       <!-- Single causes item end -->
+                       <!-- Single causes item start -->
+                      <div class="swiper-slide">
+                        <div class="col">
+                          <article class="content-box diffuse-shadow bg-light p-10px">
+                              <div class="btn-relative-img text-center overlay overlay-5">
+                                 <img src="img/causes/food.jpg" alt="">
+                                 <div class="lightbox-icons">
+                                    <a href="img/causes/food.jpg" class="causes-lightbox" title="Donate for victims">
+                                    <i class="icofont-image"></i>
+                                    </a>
+                                    <button class="js-modal-btn" data-video-id="QIYcFth8ty4">
+                                    <i class="icofont-video-alt"></i>
+                                    </button>
+                                    <a href="causes-detail.html">
+                                    <i class="icofont-external-link"></i>
+                                    </a>
+                                 </div>
+                                 <a href="donate.html" class="btn btn-default btn-small">{{__('index.donateBtn')}}</a>
+                              </div>
+                              <div class="content-area mt-2 p-10px">
+                                 <h3><a href="#">{{__('index.sixthProjectTitle')}}</a></h3>
+                                 <p>{{__('index.sixthProjectDescribtion')}}</p>
+                              </div>
+                             <!-- <div class="progress-bars m-35px-b m-10px-t p-10px-l p-10px-r">
+                                 <div class="progress">
+                                    <div class="progress-bar" data-value="45" style="width: 45%;"><span>45%</span></div>
+                                 </div>
+                              </div>-->
+                              <footer class="content-footer p-10px-l p-10px-r">
+                                 <p class="content-raised">
+                                 {{__('index.sixthProjectFirstStatic')}}:<br><b>7500 {{__('index.sixthProjectFirstStaticUnit')}}</b>
+                                 </p>
+                                 <p class="content-goal">
+                                 {{__('index.sixthProjectSecondStatic')}}:<br><b>200 {{__('index.sixthProjectSecondStaticUnit')}}</b>
+                                 </p>
+                                 <p class="content-raised">
+                                 {{__('index.sixthProjectThirdStatic')}}:<br><b>200 {{__('index.sixthProjectThirdStaticUnit')}}</b>
+                                 </p>
+                                 <p class="content-goal">
+                                 {{__('index.sixthProjectFourthStatic')}}:<br><b>200 {{__('index.sixthProjectFourthStaticUnit')}}</b>
                                  </p>
                               </footer>
                            </article>
@@ -326,7 +420,7 @@
       </section>
       <!-- ========== Causes End ========== -->
       <!-- ========== Help process Start ========== -->
-      <section id="HelpProcess" class="p-80px-tb bg-light">
+      <!--<section id="HelpProcess" class="p-80px-tb bg-light">
         <div class="container">
            <div class="row">
               <div class="col-sm-8 offset-sm-2">
@@ -340,42 +434,42 @@
          </div>
          <div class="process-wrap">
            <div class="container">
-           <div class="row">
+           <div class="row">-->
               <!-- Single process item start -->
-              <div class="process-item text-center col-md-3 col-sm-6 sm-m-15px-tb">
+              <!--<div class="process-item text-center col-md-3 col-sm-6 sm-m-15px-tb">
                 <div class="process-circle"><p>1</p></div>
                  <div class="icon-outer">
                     <i class="icofont-search-2"></i>
                  </div>
                  <h4 class="m-35px-t sm-m-15px-t">Find the cause</h4>
-              </div>
+              </div>-->
               <!-- Single process item end -->
               <!-- Single process item start -->
-              <div class="process-item text-center col-md-3 col-sm-6 sm-m-15px-tb">
+             <!-- <div class="process-item text-center col-md-3 col-sm-6 sm-m-15px-tb">
                  <div class="process-circle"><p>2</p></div>
                  <div class="icon-outer">
                      <i class="icofont-holding-hands"></i>
                  </div>
                  <h4 class="m-35px-t sm-m-15px-t">Make a donation</h4>
-              </div>
+              </div>-->
               <!-- Single process item end -->
               <!-- Single process item start -->
-              <div class="process-item text-center col-md-3 col-sm-6 sm-m-15px-tb">
+             <!-- <div class="process-item text-center col-md-3 col-sm-6 sm-m-15px-tb">
                  <div class="process-circle"><p>3</p></div>
                  <div class="icon-outer">
                      <i class="icofont-slidshare"></i>
                  </div>
                  <h4 class="m-35px-t sm-m-15px-t">Share with peoples</h4>
-              </div>
+              </div>-->
               <!-- Single process item end -->
               <!-- Single process item start -->
-              <div class="process-item text-center col-md-3 col-sm-6 sm-m-15px-tb">
+             <!-- <div class="process-item text-center col-md-3 col-sm-6 sm-m-15px-tb">
                  <div class="process-circle"><p>4</p></div>
                  <div class="icon-outer">
                      <i class="icofont-simple-smile"></i>
                  </div>
                  <h4 class="m-35px-t sm-m-15px-t">See smiling faces</h4>
-              </div>
+              </div>-->
               <!-- Single process item end -->
            </div>
          </div>
@@ -383,7 +477,7 @@
      </section>
      <!-- ========== Help process End ========== -->
       <!-- Make a donation Start-->
-      <section id="donate" class="parallax overlay overlay-5" style="background-image:url(img/bg/helping-hands.jpg);">
+      <section id="donate" class="parallax overlay overlay-5" style="background-image:url('img/bg/donate.jpg');">
          <div class="container">
             <div class="row">
                <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 offset-lg-6 offset-md-4  offset-sm-1">

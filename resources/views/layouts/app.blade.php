@@ -50,6 +50,7 @@
         <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
         <link rel="stylesheet" href="{{ asset('css/colors/green.css') }}">
 
+        
         <!-- teamplate colors -->
         <!-- <link href="css/colors/green.css" rel="stylesheet"> -->
         <!-- <link href="css/colors/blue.css" rel="stylesheet"> -->
@@ -64,6 +65,27 @@
         <!-- <link href="css/colors/olive.css" rel="stylesheet"> -->
         <!-- <link href="css/colors/gold.css" rel="stylesheet"> -->
 
+        @if ( app()->getLocale() == 'ar' ) 
+            <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+            <style type="text/css"> 
+            p,.about-box h2{
+                
+                text-align: justify;
+            }
+            .section-title{
+                text-align:center !important;
+            }
+           
+            @font-face {
+                    font-family: futura;
+                    src: url('{{ asset('fonts/FE11043T.TTF') }}');
+            }
+            *{
+                font-family:'Cairo', sans-serif;
+            }
+             </style> 
+        @endif 
+
         {{-- @if ( app()->getLocale() == 'ar' ) --}}
             {{-- <link rel="stylesheet" href="{{ asset('css/font-awesome-rtl.css') }}" media="screen"> --}}
         {{-- @endif --}}
@@ -77,8 +99,8 @@
         {{-- @endif --}}
 
 
-        <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
-        <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
+        <link rel="shortcut icon" href="{{ asset('img/bg/logo2.png') }}" type="image/x-icon">
+        <link rel="icon" href="{{ asset('img/bg/logo2.png') }}" type="image/x-icon">
 
 
     </head>
