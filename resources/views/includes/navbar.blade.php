@@ -49,9 +49,27 @@
                    <a class="nav-link" href="#lang">{{__('index.navLanguage')}}</a>
                    <span class="sub-menu-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icofont-rounded-down"></i></span>
                    <ul class="sub-menu">
-                      <li><a href="en">English</a></li>
-                      <li><a href="tr">Turkish</a></li>
-                      <li><a href="ar">العربية</a></li>
+                      <li>
+                         <a rel="alternate"
+                        hreflang="{{ 'en' }}"
+                        href="{{ LaravelLocalization::getLocalizedURL( 'en', null, [], true) }}">
+                         English
+                        </a>
+                     </li>
+                     <li>
+                        <a rel="alternate"
+                        hreflang="{{ 'tr' }}"
+                        href="{{ LaravelLocalization::getLocalizedURL( 'tr', null, [], true) }}" >
+                         Turkçe
+                        </a>
+                      </li>
+                      <li>
+                        <a rel="alternate"
+                        hreflang="{{ 'ar' }}"
+                        href="{{ LaravelLocalization::getLocalizedURL( 'ar', null, [], true) }}">
+                        العربية
+                        </a>
+                      </li>
                    </ul>
                 </li>
              </ul>

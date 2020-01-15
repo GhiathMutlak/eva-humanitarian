@@ -1,5 +1,6 @@
 <?php
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,12 +22,6 @@ Route::group(['prefix' => LaravelLocalization::setLocale()], function()
         return view('index');
     });
     
-    Route::get('/ar', function () {
-        return view('index');
-    });
-
-    Route::get('/tr', function () {
-        return view('index');
-    });
+   
 });
 
