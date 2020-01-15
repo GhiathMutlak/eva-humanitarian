@@ -1,5 +1,8 @@
 @extends('layouts.app')
 
+<title>
+   Eva
+</title>
 @section('content')
 
 
@@ -523,7 +526,7 @@
          </div>
       </section>
       <!-- Make a donation End-->
-      <!-- Our gallery Start-->
+      {{-- <!-- Our gallery Start-->
       <section id="gallery" class="p-80px-tb">
          <div class="container">
             <div class="row">
@@ -723,10 +726,10 @@
                </div>
             </div>
          </div>
-      </section>
+      </section> --}}
       <!-- Our gallery End-->
       <!-- Donor lists Start -->
-      <section id="donors" class="p-80px-tb bg-light">
+      {{-- <section id="donors" class="p-80px-tb bg-light">
          <div class="container">
           <div class="row">
             <div class="col-lg-6 col-md-12 p-25px-r sm-p-15px-r">
@@ -809,7 +812,7 @@
             </div>
           </div>
          </div>
-      </section>
+      </section> --}}
       <!-- Donor lists End -->
       <!-- Testimonials Start -->
       <section id="testimonials" class="p-80px-tb bg-white">

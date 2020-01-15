@@ -1,8 +1,8 @@
 {
-    "remotePath": "./",
-    "host": "host",
-    "username": "username",
-    "password": "password",
+    "remotePath": "/home/eva/domains/eva-humanitarian.org/Eva",
+    "host": "212.146.145.173",
+    "username": "eva",
+    "password": "vksd5#4gDFgs",
     "port": 21,
     "secure": false,
     "protocol": "ftp",
